@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Receitas</string>
+    <string name="my_recipes">Minhas Receitas</string>
+    <string name="discover_recipes">Descobrir Receitas</string>
+    <string name="recipe_image">Imagem da receita</string>
+    <string name="ingredients">Ingredientes</string>
+    <string name="instructions">Instruções</string>
+    <string name="recipe_title">Título da receita</string>
+    <string name="save">Guardar</string>
+    <string name="no_recipes">Ainda não tem receitas.\nToque em + para adicionar.</string>
+    <string name="add_recipe">Adicionar receita</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+</resources>
