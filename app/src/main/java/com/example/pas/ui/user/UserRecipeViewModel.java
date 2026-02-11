@@ -30,16 +30,16 @@ public class UserRecipeViewModel extends AndroidViewModel {
         return allRecipes;
     }
 
-    public void insert(UserRecipeEntity recipe) {
-        repository.insert(recipe);
+    public void insert(UserRecipeEntity recipe, UserRecipeRepository.OperationCallback callback) {
+        repository.insert(recipe, callback);
     }
 
-    public void update(UserRecipeEntity recipe) {
-        repository.update(recipe);
+    public void update(UserRecipeEntity recipe, UserRecipeRepository.OperationCallback callback) {
+        repository.update(recipe, callback);
     }
 
-    public void delete(UserRecipeEntity recipe) {
-        repository.delete(recipe);
+    public void delete(UserRecipeEntity recipe, UserRecipeRepository.OperationCallback callback) {
+        repository.delete(recipe, callback);
     }
 
     public void deleteById(long id) {

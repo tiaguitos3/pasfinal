@@ -16,7 +16,15 @@ public class UserRecipeEntity {
 
     private String title;
     private String instructions;
-    private String imagePath; // Caminho local da imagem (opcional)
+    private String imagePath; // URL da imagem (opcional)
+    private Long categoryId;
+    private String categoryName;
+    private String difficulty;
+    private Integer prepTime;
+    private Integer cookTime;
+    private Integer servings;
+    private String area;
+    private String ingredientsText;
     private long createdAt;
     private long updatedAt;
 
@@ -35,6 +43,38 @@ public class UserRecipeEntity {
 
     public String getImagePath() {
         return imagePath;
+    }
+
+    public Long getCategoryId() {
+        return categoryId;
+    }
+
+    public String getCategoryName() {
+        return categoryName;
+    }
+
+    public String getDifficulty() {
+        return difficulty;
+    }
+
+    public Integer getPrepTime() {
+        return prepTime;
+    }
+
+    public Integer getCookTime() {
+        return cookTime;
+    }
+
+    public Integer getServings() {
+        return servings;
+    }
+
+    public String getArea() {
+        return area;
+    }
+
+    public String getIngredientsText() {
+        return ingredientsText;
     }
 
     public long getCreatedAt() {
@@ -60,6 +100,38 @@ public class UserRecipeEntity {
 
     public void setImagePath(String imagePath) {
         this.imagePath = imagePath;
+    }
+
+    public void setCategoryId(Long categoryId) {
+        this.categoryId = categoryId;
+    }
+
+    public void setCategoryName(String categoryName) {
+        this.categoryName = categoryName;
+    }
+
+    public void setDifficulty(String difficulty) {
+        this.difficulty = difficulty;
+    }
+
+    public void setPrepTime(Integer prepTime) {
+        this.prepTime = prepTime;
+    }
+
+    public void setCookTime(Integer cookTime) {
+        this.cookTime = cookTime;
+    }
+
+    public void setServings(Integer servings) {
+        this.servings = servings;
+    }
+
+    public void setArea(String area) {
+        this.area = area;
+    }
+
+    public void setIngredientsText(String ingredientsText) {
+        this.ingredientsText = ingredientsText;
     }
 
     public void setCreatedAt(long createdAt) {

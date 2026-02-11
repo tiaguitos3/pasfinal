@@ -77,4 +77,12 @@ public class MainActivity extends AppCompatActivity {
         // Carregar receitas
         viewModel.fetchRecipes();
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (viewModel != null) {
+            viewModel.fetchRecipes();
+        }
+    }
 }

@@ -12,4 +12,23 @@
     <string name="add_recipe">Adicionar receita</string>
     <string name="edit">Editar</string>
     <string name="delete">Eliminar</string>
+    <string name="recipe_name_required">Nome da Receita *</string>
+    <string name="recipe_name_hint">Ex: Bacalhau à Brás</string>
+    <string name="image_url_required">URL da Imagem *</string>
+    <string name="image_url_hint">https://exemplo.com/imagem.jpg</string>
+    <string name="category_required">Categoria *</string>
+    <string name="difficulty">Dificuldade</string>
+    <string name="select_option">Selecione...</string>
+    <string name="prep_time">Tempo de Preparação (min)</string>
+    <string name="prep_time_hint">15</string>
+    <string name="cook_time">Tempo de Cozedura (min)</string>
+    <string name="cook_time_hint">30</string>
+    <string name="servings">Porções</string>
+    <string name="servings_hint">4</string>
+    <string name="area">Região</string>
+    <string name="area_hint">Ex: Alentejo, Lisboa</string>
+    <string name="ingredients_hint">Um ingrediente por linha...</string>
+    <string name="ingredients_helper">Escreva um ingrediente por linha. Ex: 500g de bacalhau</string>
+    <string name="instructions_required">Instruções *</string>
+    <string name="instructions_hint">Descreva o passo a passo da receita...</string>
 </resources>
